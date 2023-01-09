@@ -1,0 +1,23 @@
+model:
+    name: 'SelfSupModel'
+    depth_net:
+        name: 'monoformer'
+        version: ''
+        backbone : 'slak'
+        features : 256
+        #twins:128 others : 256
+    pose_net:
+        name: 'PoseNet'
+        version: ''
+    params:
+        crop: 'garg'
+        min_depth: 0.0
+        max_depth: 80.0
+datasets:
+    augmentation:
+        image_shape: (192, 640)
+    test:
+        dataset: ['KITTI']
+        path: ["DATA_PATH"]
+        split: ['data_splits/eigen_test_files.txt']
+        depth_type: ['velodyne']
