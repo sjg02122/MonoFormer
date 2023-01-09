@@ -45,7 +45,7 @@ In our experiments, we only use the KITTI datasets for training. Other datasets 
 ### KITTI (for Training)
 The KITTI (raw) datasets can be downloaded from the [KITTI website](http://www.cvlibs.net/datasets/kitti/raw_data.php). If you want to download the datasets using command, please use the command of [PackNet-SfM](https://github.com/TRI-ML/packnet-sfm).
 
-## Other datasets (for Evaluation)
+### Other datasets (for Evaluation)
 In our experiments, we use the ETH3D, DeMoN (e.g., MVS, SUN3D, RGBD, Scenes11) and our generated texture-shifted datasets.  
 It will be updated soon.
 
