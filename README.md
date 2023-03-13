@@ -31,12 +31,12 @@ We ran our experimentss with PyTorch 1.10.0+cu113, Python 3.7, A6000 GPU and Ubu
 We experiment extensively on modern backbone architectures (e.g., ConvNeXt, RegionViT). MF means MonoFormer.
 |Model|Abs Rel| Sq Rel| RMSE| a1|
 |---|---|---|---|---|
-|[MF-hybrid](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EaOXlfu4WidLswYkb87svNsBc2EJIDqlOevDCRPPrk3wiw?e=alkvpy) |0.104 |0.846 |4.580 |0.891 |
-|[MF-ViT](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EUYuXNoPMXhOutE6KCt_qRkBihgHOL5BsPCJSxqY9sFdGQ?e=9blLtD) |0.118|0.942 |4.840 |0.873|
-|[MF-Twins](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EW0s4xWXj1pIgvjBzULucuQBEtsaZpNhnZLPnJrPahW9Eg?e=qwFTHI) | 0.125|1.309 |4.973 |0.866 |
+|[MF-hybrid](https://o365dgist-my.sharepoint.com/:u:/g/personal/sjg02122_edu_dgist_ac_kr/Eetbt0ki9JVAha56ur9na64Bl6GizrTg8SCk8tFtQmAM7w?e=qlADwP) |0.104 |0.846 |4.580 |0.891 |
+|[MF-ViT](https://o365dgist-my.sharepoint.com/:u:/g/personal/sjg02122_edu_dgist_ac_kr/ER6FR0qdsLhEoGp-w-c85R0B5QQNi-zM9--_3AJWHFZZWw?e=AHWybg) |0.118|0.942 |4.840 |0.873|
+|[MF-Twins](https://o365dgist-my.sharepoint.com/:u:/g/personal/sjg02122_edu_dgist_ac_kr/EU93agKc9LVPqyWBl203DxsBjSXn__Y8JPtiHorPAAKfBQ?e=rdQJ7t) | 0.125|1.309 |4.973 |0.866 |
 |[MF-RegionViT](https://o365dgist-my.sharepoint.com/:u:/g/personal/sjg02122_edu_dgist_ac_kr/EWNfdEVQ6cNMjLBHOy7PX24BOeeOJ2RKpYSU-yp9eEcrsA?e=Jm22mh) |0.113 |0.893 |4.756 |0.875 |
-|[MF-ConvNeXt](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EcaenxKKHt5GuOzBqUeqgbIByR6odjRsKBTUxrXLV9faBw?e=oArgyc) |0.111 | 0.760|4.533 |0.878 |
-|[MF-SLaK](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EQ_z478CSIpKkVOXGe8hIXQBQRT7YhR2c-W5mx23aueoTQ?e=DnCdQv) | 0.117|0.866 |4.811 |0.878 |
+|[MF-ConvNeXt](https://o365dgist-my.sharepoint.com/:u:/g/personal/sjg02122_edu_dgist_ac_kr/EWQ2muWNfU5Eo0eld7hPj14BJ0lfl62S7Dh_E8_1gLehmw?e=aagm0I) |0.111 | 0.760|4.533 |0.878 |
+|[MF-SLaK](https://o365dgist-my.sharepoint.com/:u:/g/personal/sjg02122_edu_dgist_ac_kr/EX2wtdeo9lVOrT_6-co1W3AB9-CjKsxdxYLSkoqlMg0rkA?e=kfkJ7j) | 0.117|0.866 |4.811 |0.878 |
 
 ## Datasets
 You configure your datasets in config.py or other config yaml files. (DATA_PATH means your data root path.). 
