@@ -34,7 +34,7 @@ We experiment extensively on modern backbone architectures (e.g., ConvNeXt, Regi
 |[MF-hybrid](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EaOXlfu4WidLswYkb87svNsBc2EJIDqlOevDCRPPrk3wiw?e=alkvpy) |0.104 |0.846 |4.580 |0.891 |
 |[MF-ViT](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EUYuXNoPMXhOutE6KCt_qRkBihgHOL5BsPCJSxqY9sFdGQ?e=9blLtD) |0.118|0.942 |4.840 |0.873|
 |[MF-Twins](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EW0s4xWXj1pIgvjBzULucuQBEtsaZpNhnZLPnJrPahW9Eg?e=qwFTHI) | 0.125|1.309 |4.973 |0.866 |
-|[MF-RegionViT](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EYAPcwQuTI9Kv9NIYmdDnLcBEvWgJTOVOVi_E-7xIqL3vA?e=d2xMAK) |0.113 |0.893 |4.756 |0.875 |
+|[MF-RegionViT](https://o365dgist-my.sharepoint.com/:u:/g/personal/sjg02122_edu_dgist_ac_kr/EWNfdEVQ6cNMjLBHOy7PX24BOeeOJ2RKpYSU-yp9eEcrsA?e=Jm22mh) |0.113 |0.893 |4.756 |0.875 |
 |[MF-ConvNeXt](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EcaenxKKHt5GuOzBqUeqgbIByR6odjRsKBTUxrXLV9faBw?e=oArgyc) |0.111 | 0.760|4.533 |0.878 |
 |[MF-SLaK](https://seoultechackr-my.sharepoint.com/:u:/g/personal/sjg02122_seoultech_ac_kr/EQ_z478CSIpKkVOXGe8hIXQBQRT7YhR2c-W5mx23aueoTQ?e=DnCdQv) | 0.117|0.866 |4.811 |0.878 |
 
