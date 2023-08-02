@@ -26,7 +26,7 @@ conda create -n monoformer python=3.7
 git clone https://github.com/sjg02122/MonoFormer.git
 pip install -r requirements.txt
 ```
-We ran our experimentss with PyTorch 1.10.0+cu113, Python 3.7, A6000 GPU and Ubuntu 20.04.
+We ran our experiments with PyTorch 1.10.0+cu113, Python 3.7, A6000 GPU and Ubuntu 20.04.
 ### Pretrained model weights
 We experiment extensively on modern backbone architectures (e.g., ConvNeXt, RegionViT). MF means MonoFormer.
 |Model|Abs Rel| Sq Rel| RMSE| a1|
@@ -49,7 +49,7 @@ The KITTI (raw) datasets can be downloaded from the [KITTI website](http://www.c
 In our experiments, we use the ETH3D, DeMoN (e.g., MVS, SUN3D, RGBD, Scenes11) and our generated texture-shifted datasets.  
 It will be updated soon.
 
-## Inferernce 
+## Inference 
 You can directly run inference on a single image or folder:
 ```
 python3 scripts/infer.py --checkpoint <checkpoint.ckpt> --input <image or folder> --output <image or folder> [--image_shape <input shape (h,w)>]
