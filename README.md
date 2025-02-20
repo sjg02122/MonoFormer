@@ -20,6 +20,17 @@ If you find our work useful in your research, please consider citing our papers 
 }
 ```
 
+```
+@article{bae2023study,
+  title={A study on the generality of neural network structures for monocular depth estimation},
+  author={Bae, Jinwoo and Hwang, Kyumin and Im, Sunghoon},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2023},
+  publisher={IEEE}
+}
+```
+
+
 ## Setup
 ```
 conda create -n monoformer python=3.7
